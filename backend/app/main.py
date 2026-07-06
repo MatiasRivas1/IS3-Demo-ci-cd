@@ -9,7 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 import os
 
-from app.liquidacion import Liquidacion
+from .liquidacion import Liquidacion
 
 app = FastAPI(
     title="API Liquidación de Sueldos",
